@@ -1,0 +1,7 @@
+{
+    "require": {
+        "kud/tmhoauth-silex-service-provider": "dev-master",
+        "silex/silex": "dev-master",
+        "twig/twig": "1.8.*"
+    }
+}

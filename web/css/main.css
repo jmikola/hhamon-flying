@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 50px auto;
+    min-height: 50%;
+    padding: 0;
+    width: 640px;
+}
+
+header h1 {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: #3789ad;
+    text-decoration: none;
+}
+
+section div.answer {
+    font-family: "Ewert", sans-serif;
+    font-size: 8em;
+    text-align: center;
+    margin-top: 0;
+}
+
+section div.tweet {
+    padding-bottom: 50px;
+}

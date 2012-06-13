@@ -1,0 +1,9 @@
+<?php
+
+$app['http_cache.cache_dir'] = __DIR__.'/../cache/';
+$app['tmhoauth.config'] = array(
+    'consumer_key' => '',
+    'consumer_secret' => '',
+);
+$app['tweet.inspector.ttl'] = 600;
+$app['twig.cache_dir'] = __DIR__.'/../cache';
