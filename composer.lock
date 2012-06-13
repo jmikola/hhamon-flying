@@ -1,0 +1,101 @@
+{
+    "hash": "559a4e590b933bfd11bb4d33a619cdb0",
+    "packages": [
+        {
+            "package": "kud/tmhoauth-silex-service-provider",
+            "version": "dev-master",
+            "source-reference": "e882acdf0966bbcad4ca38bddb3a7d7a033ab06d"
+        },
+        {
+            "package": "pimple/pimple",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "pimple/pimple",
+            "version": "dev-master",
+            "source-reference": "694448bdd2b7d802517104bdafe1a6f2591506c8"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "source-reference": "aee53c94bca632e629818bde748a68a5e3b11f5e"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "source-reference": "30d3f5da80c2aeab15bcdb5a7d448d15bc294b23"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "source-reference": "526d5d663f0b3170a91f916f912075609120e09a"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "dev-master",
+            "source-reference": "fd5935fb6cd03dbd06930f2e3065c931694a5c92"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "source-reference": "4eef37eee0961782dfe66a23df4fc280ff1a9e44"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "themattharris/tmhoauth",
+            "version": "dev-master",
+            "source-reference": "a3a296d13cd6b27a52715201a3bff0c1c2a2fd40"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "alias-pretty-version": "1.8.x-dev",
+            "alias-version": "1.8.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "ca33207bb22fe6365d13bdaf034f936e30b53560"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "kud/tmhoauth-silex-service-provider": 20,
+        "silex/silex": 20
+    }
+}
