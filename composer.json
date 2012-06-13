@@ -3,5 +3,10 @@
         "kud/tmhoauth-silex-service-provider": "dev-master",
         "silex/silex": "dev-master",
         "twig/twig": "1.8.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HugoFlying": "src/"
+        }
     }
 }

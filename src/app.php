@@ -8,7 +8,6 @@ use Silex\Provider\TwigServiceProvider;
 use Symfony\Component\HttpFoundation\Response;
 
 $loader = require_once __DIR__.'/../vendor/autoload.php';
-$loader->add('HugoFlying', __DIR__);
 
 $app = new Application();
 
