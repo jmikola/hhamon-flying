@@ -5,7 +5,7 @@ $app->get('/', function() use ($app) {
     $tweet = $app['tweet.inspector']->getRecentTweetAboutFlying();
 
     if ($tweet) {
-        $oembed = $app['tweet.inspector']->getOembedForTweet($tweet, 550, 'center');
+        $oembed = $app['tweet.inspector']->getOembedForTweet($tweet, 500, 'center');
         $params['oembed_html'] = $oembed->html;
         $params['is_flying'] = true;
     }
