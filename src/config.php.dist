@@ -3,6 +3,7 @@
 $app['debug'] = false;
 $app['google.analytics.id'] = '';
 $app['http_cache.cache_dir'] = sys_get_temp_dir() . '/hhamon-flying-cache/http';
+$app['http_cache.ttl'] = 10;
 $app['tmhoauth.config'] = array(
     'consumer_key' => '',
     'consumer_secret' => '',

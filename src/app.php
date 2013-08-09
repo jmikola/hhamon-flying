@@ -13,7 +13,10 @@ $app = new Application();
 
 require_once __DIR__.'/config.php';
 
-$app->register(new HttpCacheServiceProvider());
+$app->register(new HttpCacheServiceProvider(), array(
+    'http_cache.cache_dir' => $app['http_cache.cache_dir'],
+    'http_cache.esi'       => null,
+));
 
 $app->register(new TmhOAuthServiceProvider());
 

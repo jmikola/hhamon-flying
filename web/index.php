@@ -5,4 +5,4 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__.preg_replace('#(\?.*)$#'
 }
 
 $app = require __DIR__.'/../src/app.php';
-$app->run();
+$app['http_cache']->run();
