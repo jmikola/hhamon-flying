@@ -13,7 +13,6 @@ class TweetInspectorServiceProvider implements ServiceProviderInterface
         $app['tweet.inspector'] = $app->share(function () use ($app) {
             return new TweetInspector(
                 $app['tmhoauth'],
-                $app['tmhoauth.utils'],
                 $app['tweet.inspector.ttl']
             );
         });

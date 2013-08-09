@@ -1,7 +1,7 @@
 <?php
 
+use HugoFlying\Silex\Provider\TmhOAuthServiceProvider;
 use HugoFlying\Silex\Provider\TweetInspectorServiceProvider;
-use Kud\Silex\Provider\TmhOAuthServiceProvider;
 use Silex\Application;
 use Silex\Provider\HttpCacheServiceProvider;
 use Silex\Provider\TwigServiceProvider;

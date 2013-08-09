@@ -1,8 +1,7 @@
 {
     "require": {
         "php": ">=5.4.0",
-        "ext-intl": ">=2.0.0",
-        "kud/tmhoauth-silex-service-provider": "dev-master",
+        "themattharris/tmhoauth": "~0.8.2",
         "silex/silex": "dev-master",
         "twig/twig": "1.8.*"
     },

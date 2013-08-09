@@ -2,8 +2,7 @@
 
 namespace HugoFlying;
 
-use Themattharris\TmhOAuth;
-use Themattharris\TmhUtilities;
+use tmhOAuth;
 
 class TweetInspector
 {
@@ -14,7 +13,6 @@ class TweetInspector
     private $pattern;
     private $transliterator;
     private $ttl;
-    private $utils;
 
     private $words = array(
         'aboard', 'a bord',
@@ -30,10 +28,9 @@ class TweetInspector
         'takeoff', 'taking off', 'decollage',
     );
 
-    public function __construct(TmhOAuth $client, TmhUtilities $utils, $ttl)
+    public function __construct(tmhOAuth $client, $ttl)
     {
         $this->client = $client;
-        $this->utils = $utils;
         $this->ttl = $ttl;
 
         $words = array_map(function($word) { return preg_quote($word, '/'); }, $this->words);
