@@ -118,7 +118,7 @@ class TweetInspector
             'include_rts' => false,
             'include_entities' => true,
             'count' => 25,
-            //'since_id' => 
+            //'since_id' =>
         ));
 
         $response = $this->client->response;
