@@ -13,12 +13,14 @@ A silly [Silex][1] application to track [hhamon][2]'s flight status.
 The `src/` directory includes a `config.php.dist` file, which should be copied
 to `config.php` and populated with your Twitter API credentials.
 
-Additionally, the cache directory and TTL options can be customized.
+Additional options, such as cache directories and TTL options, can also be
+customized.
 
 ### Cache Directory
 
-Create the cache directory (`cache/` by default) and ensure it is writable by
-your web server.
+By default, the application will use `hhamon-flying/` within the system's
+temporary directory. This path, which must be writable, may be customized via
+the `http_cache.cache_dir` and `twig.cache_dir` configuration options.
 
 ### Web Server
 

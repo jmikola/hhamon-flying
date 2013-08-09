@@ -2,7 +2,7 @@
 
 $app['debug'] = false;
 $app['google.analytics.id'] = '';
-$app['http_cache.cache_dir'] = __DIR__.'/../cache/';
+$app['http_cache.cache_dir'] = sys_get_temp_dir() . '/hhamon-flying-cache/http';
 $app['tmhoauth.config'] = array(
     'consumer_key' => '',
     'consumer_secret' => '',
@@ -10,4 +10,4 @@ $app['tmhoauth.config'] = array(
     'secret' => '',
 );
 $app['tweet.inspector.ttl'] = 600;
-$app['twig.cache_dir'] = __DIR__.'/../cache';
+$app['twig.cache_dir'] = sys_get_temp_dir() . '/hhamon-flying-cache/twig';
