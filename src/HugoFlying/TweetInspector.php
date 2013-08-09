@@ -77,7 +77,7 @@ class TweetInspector
             $params['align'] = $align;
         }
 
-        $this->client->request('GET', $this->client->url('1/statuses/oembed'), $params);
+        $this->client->request('GET', $this->client->url('1.1/statuses/oembed'), $params);
 
         $response = $this->client->response;
 
@@ -111,7 +111,7 @@ class TweetInspector
             return $tweets;
         }
 
-        $this->client->request('GET', $this->client->url('1/statuses/user_timeline'), array(
+        $this->client->request('GET', $this->client->url('1.1/statuses/user_timeline'), array(
             'screen_name' => 'hhamon',
             'trim_user' => true,
             'exclude_replies' => true,
